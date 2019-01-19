@@ -63,11 +63,7 @@ while True:
         os.system('cls')
     else:
         os.system('clear')
-    symb = [0] * 4
-    symb[0] = ' '
-    symb[1] = '#'
-    symb[2] = '@'
-    symb[3] = '~'
+    symb = [' ', '#', '@', '~']
     print("'#' means rock")
     print("'@' means shrimp")
     print("'~' means fish")
